@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.links {
+  border: 2px solid powderblue;
+}
+
+.grid-container2 {
+  display: grid;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.slack {
+	display: none;
+}
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 50px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mypicture {
+  border: round;
+  width: 88px;
+  height: 88px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
