@@ -1,73 +1,354 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: relative;
+  width: 1440px;
+  height: 1258px;
+  background: #FFFFFF;
+}
+
+.myImage{
+/* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+/* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.name{
+  width: 1152px;
+  height: 30px;
+/* Text xl/Bold */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+/* identical to box height, or 150% */
   text-align: center;
+/* Gray/900 */
+  color: #101828;
+/* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
 }
 
-.links {
-  border: 2px solid powderblue;
+.twitter{
+  /* Text */
+  width: 101px;
+  height: 28px;
+  /* Text lg/Medium */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */ 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Gray/900 */
+  color: #101828;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.grid-container2 {
-  display: grid;
-  background-color: #ffffff;
-  padding: 10px;
+.twitterBox{
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  /* Gray/200 */
+  background: #EAECF0;
+  /* Gray/200 */
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.zuriTeam{
+  /* Text */
+  width: 86px;
+  height: 28px;
+  /* Text lg/Medium */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  /* Gray/900 */ 
+  color: #101828; 
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.zuriTeamBox{/* Frame 5 */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  /* Gray/200 */
+  background: #EAECF0;
+  /* Gray/200 */
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.zuriBooks{
+  /* Text */
+  width: 92px;
+  height: 28px;
+  /* Text lg/Medium */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Gray/900 */
+  color: #101828;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.zuriBooksBox{
+  /* Frame 5 */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  /* Gray/200 */
+  background: #EAECF0;
+  /* Gray/200 */
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.pythonBooks{/* Text */
+  width: 119px;
+  height: 28px;
+  /* Text lg/Medium */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Gray/900 */
+  color: #101828;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pythonBooksBox{/* Frame 5 */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  /* Gray/200 */
+  background: #EAECF0;
+  /* Gray/200 */
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.bco{/* Text */
+  width: 259px;
+  height: 28px;
+  /* Text lg/Medium */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Gray/900 */
+  color: #101828;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.bcoBox{
+  /* Frame 5 */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  /* Gray/200 */
+  background: #EAECF0;
+  /* Gray/200 */
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.dB{/* Text */
+  width: 118px;
+  height: 28px;
+  /* Text lg/Medium */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Gray/900 */
+  color: #101828;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.dbBox{/* Frame 5 */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  /* Gray/200 */
+  background: #EAECF0;
+  /* Gray/200 */
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.contact{/* Text */
+  width: 101px;
+  height: 28px;
+  /* Text lg/Medium */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Gray/900 */
+  color: #101828;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.contactBox{
+  /* Frame 5 */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  /* Gray/200 */
+  background: #EAECF0;
+  /* Gray/200 */
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
 }
 
 .slack {
 	display: none;
 }
-
-.link-button {
-  background: #ffffff none repeat scroll 0 0;
-  border: 1px solid #aa8d56;
-  color: #aa8d56;
-  outline: medium none;
-  padding: 15px;
-  text-decoration: none;
-}
-
-.grid-item2 {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-
-.grid-container {
-  display: grid;
-  row-gap: 50px;
-  background-color: #ffffff;
-  padding: 10px;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  outline: medium none;
-  text-decoration: none;
-}
-
-.mypicture {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
