@@ -16,8 +16,18 @@ function Contact(){
     
     return(
         <div>
-        <h1> Contact Me </h1>
-        <p>Hi there, contact me to ask me about anything you have in mind.</p>
+        <div className='contactpageheader'>
+        <div className='container1'> 
+        <div className='content'>
+        <div className='content1'>
+        <div className='headingandsupportingtext'>
+        <span className='text'>
+        <span className='displaymd-semibold'> Contact Me </span>
+        </span>
+        <span className='text02'>
+        <span className='textxl-normal'>Hi there, contact me to ask me about anything you have in mind.</span>
+        </span>
+        </div>
         <form>
         <label> first name
             <input
@@ -59,6 +69,10 @@ function Contact(){
         <button onClick={handleSubmit}>
             Send message
         </button>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
     )
 }

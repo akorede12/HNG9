@@ -1,0 +1,446 @@
+.stage1task {
+    width: 100%;
+    height: 1098px;
+    display: flex;
+    padding: 64px 112px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  .main-section {
+    display: flex;
+    padding: 0 32px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    border-color: transparent;
+    margin-bottom: 24px;
+    flex-direction: column;
+  }
+  .content {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .profile-section {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    border-color: transparent;
+    margin-bottom: 56px;
+    flex-direction: column;
+  }
+  .profileimg {
+    width: 88px;
+    height: 88px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 275px;
+    margin-bottom: 24px;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+  }
+  .twitter {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  .text {
+    color: var(--dl-color-gray-900);
+    height: auto;
+    flex-grow: 1;
+    align-self: auto;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .frame-avatarsharebutton {
+    top: -20px;
+    left: 904px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(207, 212, 220, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: var(--dl-color-gray-white);
+  }
+  .content1 {
+    top: 6px;
+    left: 6px;
+    width: 28px;
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    position: absolute;
+    align-items: center;
+    border-color: transparent;
+    border-radius: 12px;
+    justify-content: center;
+  }
+  .share06 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+  }
+  .link-section {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .links {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  .frame5 {
+    display: flex;
+    padding: 24px 32px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    border-color: rgba(234, 236, 240, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-gray-200);
+  }
+  .text02 {
+    color: var(--dl-color-gray-900);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .btnzuri {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  .frame51 {
+    display: flex;
+    padding: 24px 32px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    border-color: rgba(234, 236, 240, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-gray-200);
+  }
+  .text04 {
+    color: var(--dl-color-gray-900);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .books {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  .frame52 {
+    display: flex;
+    padding: 24px 32px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    border-color: rgba(234, 236, 240, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-gray-200);
+  }
+  .text06 {
+    color: var(--dl-color-gray-900);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .bookpython {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  .frame53 {
+    display: flex;
+    padding: 24px 32px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    border-color: rgba(234, 236, 240, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-gray-200);
+  }
+  .text08 {
+    color: var(--dl-color-gray-900);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .pitch {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  .frame54 {
+    display: flex;
+    padding: 24px 32px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    border-color: rgba(234, 236, 240, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-gray-200);
+  }
+  .text10 {
+    color: var(--dl-color-gray-900);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .bookdesign {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  .frame55 {
+    display: flex;
+    padding: 24px 32px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    border-color: rgba(234, 236, 240, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-gray-200);
+  }
+  .text12 {
+    color: var(--dl-color-gray-900);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .contact {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    justify-content: center;
+  }
+  .frame56 {
+    display: flex;
+    padding: 24px 32px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    border-color: rgba(234, 236, 240, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-gray-200);
+  }
+  .text14 {
+    color: var(--dl-color-gray-900);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .social-section {
+    display: flex;
+    padding: 24px 0;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    border-color: transparent;
+    flex-direction: column;
+    background-color: var(--dl-color-gray-white);
+  }
+  .container1 {
+    display: flex;
+    padding: 0 32px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .content2 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .socialicons {
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    border-color: transparent;
+    justify-content: center;
+  }
+  .slack {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+  }
+  .slack1 {
+    top: 2.2500014305114746px;
+    left: 2.25px;
+    width: 19.5px;
+    height: 19.499996185302734px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .vector {
+    top: 0.0001595020294189453px;
+    left: 10.5px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+  }
+  .vector1 {
+    top: 19.499839782714844px;
+    left: 8.999999046325684px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+  }
+  .vector2 {
+    top: 10.499998092651367px;
+    left: 19.49981689453125px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+  }
+  .vector3 {
+    top: 9px;
+    left: 0.0001373291015625px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+  }
+  .socialicon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
