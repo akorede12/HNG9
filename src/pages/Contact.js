@@ -1,5 +1,5 @@
 // firstName, lastName, email, message 
-
+import React from 'react';
 import { useState } from "react"
 
 function Contact(){
